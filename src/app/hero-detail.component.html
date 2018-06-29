@@ -1,0 +1,8 @@
+<hr>
+<h4>{{hero.name | uppercase}} Detail</h4>
+<div>Id: {{hero.id | testpipe:5}}</div>
+<label>Name:
+  <input [(ngModel)]="hero.name">
+</label>
+<br />
+<label>Power: <input [(ngModel)]="hero.power"></label>
